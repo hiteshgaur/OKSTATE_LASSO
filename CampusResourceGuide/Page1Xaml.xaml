@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
+			 x:Class="CampusResourceGuide.Page1Xaml"
+             xmlns:local="clr-namespace:CampusResourceGuide;assembly=CampusResourceGuide"
+			 Title="Campus Resource Guide">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+           
+                <StackLayout>
+                    <Label   Text="sponsered by LASSO" FontAttributes="None" FontSize="Small" HorizontalOptions="Center" TextColor="White"  />
+                </StackLayout>
+
+            <Grid x:Name="grdCat" ColumnSpacing="10" RowSpacing="20" Margin="50, 50, 50, 0" Opacity="4000">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        
+                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="0" Grid.Column="0" x:Name="Button1" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <!--<Label Text="Grades/" TextColor="White" Font="16"/>-->
+                            <Button Text="Grades/Academics"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="0" Grid.Column="1" x:Name="Button2" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Majors/Careers"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="1" Grid.Column="0" x:Name="Button3" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Finances"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="1" Grid.Column="1" x:Name="Button4" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Social/Cultural"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="2" Grid.Column="0" x:Name="Button5" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Health/Wellness"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="2" Grid.Column="1" x:Name="Button6" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Diversity"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="3" Grid.Column="0" x:Name="Button7" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Disability Services"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    <local:ContentButton Pressed="OnNextPageButtonClicked"  Grid.Row="3" Grid.Column="1" x:Name="Button8" WidthRequest="100" HeightRequest="60" BackgroundColor="Orange">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <Button Text="Food"  TextColor="White" Font="16" Clicked="OnNextPageButtonClicked" />
+                        </StackLayout>
+                    </local:ContentButton>
+                    
+                </Grid>
+
+
+                <StackLayout Padding="50,0">
+                    
+                        <StackLayout>
+                    <Entry x:Name="txtSearch" IsEnabled="True" IsVisible="True"  Keyboard="Default" Placeholder="Search" 
+                           TextColor="White" HorizontalOptions="FillAndExpand" TextChanged="SearchTextChanged" Completed="SearchTextCompleted" />
+                        </StackLayout>
+                   
+                </StackLayout>
+
+                <StackLayout Padding="50,0">
+                            
+                                <StackLayout>
+                    <Button x:Name="btnSearch" Text="Search" IsVisible="False" Opacity="0"  BackgroundColor="Orange" 
+                                            Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnSearchButtonClicked" 
+                                            HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                        </StackLayout>
+                   
+                </StackLayout>
+            <!--<ScrollView VerticalOptions="StartAndExpand"> </ScrollView><StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Academics" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" Margin="10" />
+                    <Button Text="Majors" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" />
+            </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Grades" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange"/>
+                    <Button Text="Careers" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" />
+            </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Cultural" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" MinimumWidthRequest="150"/>
+                    <Button Text="Social" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" MinimumWidthRequest="150" />
+            </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Finances" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" MinimumWidthRequest="150"/>
+                    <Button Text="Diversity" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" />
+            </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Health" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" TextColor="WhiteSmoke"/>
+                    <Button Text="Wellness" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" TextColor="WhiteSmoke" />
+            </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Button Text="Disability Services" Clicked="OnNextPageButtonClicked"  HorizontalOptions="StartAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange"/>
+                    <Button Text="Food" Clicked="OnNextPageButtonClicked"  HorizontalOptions="EndAndExpand" BorderWidth="1" BorderRadius="10" BackgroundColor="Orange" MinimumWidthRequest="150" />
+            </StackLayout>
+            </StackLayout>-->
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

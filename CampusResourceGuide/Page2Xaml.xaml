@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="CampusResourceGuide.Page2Xaml"
+             xmlns:local="clr-namespace:CampusResourceGuide;assembly=CampusResourceGuide"
+			 Title="Campus Resource Guide"
+             >
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="Black">
+            <StackLayout BackgroundColor="Black">
+
+                <StackLayout>
+                    <Label   Text="sponsered by LASSO" FontAttributes="None" FontSize="Micro" HorizontalOptions="Center" TextColor="White"  />
+                </StackLayout>
+                <StackLayout Margin="10, 20, 10, 10">
+                    <Label x:Name="lblCategory"   Text="Category" FontAttributes="None" FontSize="Large" HorizontalOptions="Start" TextColor="White"  />
+                </StackLayout>
+                <StackLayout x:Name="gridGrades" IsVisible="False">
+                    <StackLayout>
+                        <Button Text="LASSO Academic Success Coaching"    BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="LASSO Supplemental Instruction"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="LASSO Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Academic Development Center"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="CEAT Studnt Services"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Agriculture Sciences and Natural Resources Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Chemistry Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="College of Arts and Sciences Success Center"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Engineering, Architecture and Technology Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Foreign Language Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="History Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Integrative Biology Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="International Students and Scholars"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+
+                    <StackLayout >
+                        <Button Text="Math Learning Success Center"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="NOC tutoring (North Classroom Building Student Success Center)"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="OSU Library"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="OSU Writing Center"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Patricia Kain Knaub Center for Student Success (Human Sciences)"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Physics Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Statistics Tutoring"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Veteran Student Academic Services"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Watson Family Student Academic Success Center (Education)"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout x:Name="gridCareers" IsVisible="False">
+                    <StackLayout >
+                        <Button Text="Agricultural Sciences and Natural Resources Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Arts and Sciences Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Career Services"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Center for Veterinary Health Science Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Education Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Engineering, Architecture and Technology Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Graduate College Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Honors College Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Human Sciences Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Spears School of Business Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="University College Advising"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout  x:Name="gridFinances" IsVisible="False">
+                    <StackLayout >
+                        <Button Text="Bursar"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="International Students and Scholars"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Scholarship and Financial Aid"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout  x:Name="gridSocial" IsVisible="False">
+                    <StackLayout >
+
+                        <Button Text="LASSO Academic Success Coaching"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+
+                        <Button Text="Campus Life (Student Organizations)"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Center for Sovereign Nations"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Fraternity and Sorority Affairs"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Housing and Residential Life"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="International Students and Scholars"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Leadership and Campus Life"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Non-Traditional Student Services"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Offices of Multicultural Affairs"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="OSU ID cards and replacements"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="OSU Parents Association"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Student Government Association"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Student Volunteer Center"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout  x:Name="gridHealth" IsVisible="False">
+                    <StackLayout >
+
+                        <Button Text="LASSO Academic Success Coaching"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+
+                        <Button Text="Colvin Recreation Center"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+
+                    <StackLayout >
+                        <Button Text="Center for Family Services"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Counseling and Counseling Psychology Clinic"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="OSU School Psychology Clinic"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Psychology Services Center"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Reboot Center"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Seretean Wellness Center"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Student Counseling Center"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="University Health Services"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout  x:Name="gridDiversity" IsVisible="False">
+                    <StackLayout >
+
+                        <Button Text="Campus Life (Student Organizations)"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Offices of Multicultural Affairs"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="International Students and Scholars"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout  x:Name="gridDisability" IsVisible="False">
+                    <StackLayout >
+
+                        <Button Text="ABLE Tech"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="Student Disability Services"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="University Assessment and Testing"   BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"  />
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout  x:Name="gridFood" IsVisible="False" >
+                    <StackLayout >
+
+                        <Button Text="Meal Plans"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+                    <StackLayout >
+                        <Button Text="University Dining Services"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout  x:Name="gridSearch" IsVisible="False" >
+                    <ListView x:Name="listSearch"  >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <!--<ViewCell.ContextActions>
+                                        <MenuItem Clicked="OnMore" CommandParameter="{Binding .}" Text="More" />
+                                        <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Delete" IsDestructive="True" />
+                                    </ViewCell.ContextActions>-->
+                                    <!--<StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                        <StackLayout Padding="5,0,0,0" VerticalOptions="StartAndExpand" Orientation="Vertical">
+                                            <Label Text="{Binding .}" VerticalTextAlignment="Center" FontSize="Medium" />
+                                            <Label Text="hint: trigger a context action" VerticalTextAlignment="Center" FontSize="Small" />
+                                        </StackLayout>
+                                    </StackLayout>-->
+
+                                    <StackLayout >
+
+                                        <Button Text="{Binding .}"  BackgroundColor="Orange" Margin="5, 5, 5, 5"  TextColor="White" Font="16"  Clicked="OnNextPageButtonClicked" HorizontalOptions = "FillAndExpand" VerticalOptions="FillAndExpand" Scale="1"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </StackLayout>
+
+
+            <!--ItemsSource="{Binding .}" ItemTapped="OnItemTapped"-->
+
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

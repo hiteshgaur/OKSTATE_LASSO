@@ -1,0 +1,16 @@
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\WorkingWithNavigation.dll
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\WorkingWithNavigation.pdb
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Core.dll
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Platform.dll
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Core.pdb
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Core.xml
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.csprojResolveAssemblyReference.cache
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.Page1Xaml.xaml.g.cs
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.Page2Xaml.xaml.g.cs
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.Page3Xaml.xaml.g.cs
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.Page2aXaml.xaml.g.cs
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.dll
+C:\Hitesh_Projects\xamarin-forms-samples-master\Navigation\Hierarchical\WorkingWithNavigation\obj\Release\WorkingWithNavigation.pdb
